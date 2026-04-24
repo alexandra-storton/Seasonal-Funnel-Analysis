@@ -17,7 +17,7 @@ WITH user_sessions AS (
  FROM `bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*`
  WHERE event_name = 'session_start'
    AND _TABLE_SUFFIX BETWEEN '20201101' AND '20210103'
-   AND PARSE_DATE('%Y%m%d', event_date) <= '2021-01-03'
+   AND PARSE_DATE('%Y%m%d', event_date) <= '2021-01-03' 
 ),
 user_classification AS (
  SELECT
@@ -131,7 +131,7 @@ Query 3 : Funnel (New Customers)
 This query constructs a linear conversion funnel by tracking the first occurrence of key user milestones: visiting the site, viewing a product, adding to cart, and making a first and second purchase. It applies a strict sequential logic (ensuring each stage happens after the previous one) and uses the 8-day threshold identified in Query 2 to ensure the data represents a complete and accurate conversion window.
 
 🎯 Skills Demonstrated
-. Funnel modelling with chronological integrity
+. Funnel modelling 
 . Event-based filtering
 . Ranked purchase data to provide a comprehensive view of the end-to-end customer journey.
 
@@ -145,7 +145,7 @@ WITH events_clean AS (
  WHERE event_name IN ('first_visit','view_item','add_to_cart','purchase')
 ),
 
--- Step 1 : Identify first occurrence of each stage per user (2021-01-13 chosen as threshold with 85% customers complete funnel after 18 days)
+-- Step 1 : First touchpoint per user (2021-01-13 chosen as threshold where 85% customers complete funnel after 18 days)
 user_stages AS (
  SELECT
    user_pseudo_id,
@@ -157,7 +157,7 @@ user_stages AS (
  GROUP BY user_pseudo_id
 ),
 
---Step 2 : Add in timestamp for second purchase
+--Step 2 : Timestamp for second purchase
 
 purchase_ranks AS (
  SELECT
@@ -190,7 +190,7 @@ SELECT
  COUNTIF(second_purchase_ts IS NOT NULL) AS stage_second_purchase
 FROM user_stages us
 LEFT JOIN second_purchase sp ON us.user_pseudo_id = sp.user_pseudo_id
-WHERE DATE(TIMESTAMP_MICROS(first_visit_ts)) <= DATE('2021-01-13');
+WHERE PARSE_DATE('%Y%m%d', event_date) <= '2021-01-03';
 
 
 Query 4 : Weekly Cohort Funnel Analysis (View item & Add to Cart)
@@ -200,10 +200,10 @@ This query performs a cohort analysis by grouping new users into their specific 
 
 🎯 Skills Demonstrated
 . Cohort analysis 
-. Date manipulation using FORMAT_DATE to bucket users into weekly segments. 
+. Date manipulation using FORMAT_DATE to bucket users into weekly segments
 . Efficient data joining
-. Safe arithmetic (using SAFE_DIVIDE to prevent errors)
-. Conditional aggregation (MAX(CASE...)) to pivot granular event logs into a user-level behavioral summary
+. SAFE_DIVIDE to prevent errors
+. Conditional aggregation (MAX(CASE...)) to pivot event logs into user-level behavioral summary
 
 WITH new_customers AS (
  
@@ -246,8 +246,7 @@ This query segments the conversion funnel into specific seasonal trading periods
 
 🎯 Skills Demonstrated
 . Data segmentation by using CASE statements to create custom time-based buckets for seasonal analysis.
-. Ability to integrate multiple data models
-. Merging chronological funnel logic with custom period definitions 
+. Merging funnel logic with custom period definitions 
 . Window Functions to provide a high-level comparative analysis of marketing effectiveness over time
 
 WITH events_clean AS (
@@ -374,7 +373,7 @@ This query breaks down sales performance across key retail peaks to measure the 
 . Financial data extraction using a subquery to UNNEST and retrieve specific numeric values from GA4 event parameters.
 . Data cleaning and aggregation 
 . COALESCE to handle nulls 
-. applying custom sorting logic to ensure that seasonal financial reports are presented in a logical, chronological order for stakeholders.
+. Applying custom sorting logic to ensure that seasonal financial reports are presented in a logical order for stakeholders.
 
 WITH purchase_events AS (
 
