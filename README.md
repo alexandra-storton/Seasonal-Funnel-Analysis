@@ -29,7 +29,7 @@ BFCM was the best performing period with an AOV of $82.77 and a +6.6% value upli
 <br>
 
 **3. Optimise Channel Mix & Expand into Profitable Areas.** 
-* Referrals is a high-intent channel and brought in the highest AOV customers during the Christmas Period ($74.50) - push this as an acquisition channel during this period through link googlemerchandisestore.com.
+* Referrals is a high-intent channel and brought in the highest AOV customers during the Post-Christmas Period ($74.50) - push this as an acquisition channel during this period through link googlemerchandisestore.com.
 * CPC acts as a window shopping channel pre-BFCM with high engagement rates but poor add to cart rates (7%) and low final AOV. Remarket to these individuals during BFCM to capture those who added to cart or showed high engagement with site but didn't check out.
 * Canada is an underinvested in market during BFCM, with the higest AOV of $95.28 vs the US's $77.78. Only 8.2% of traffic compared to the US's 51%.
   
@@ -69,12 +69,12 @@ SQL (BigQuery): Unnesting, CTEs, Window Function, Statistical Profiling, Approx 
 
 **3. Organic the best performing channel overall. CPC spend should be focused on increasing awareness pre-BFCM, remarketining in BFCM. Expand referral programme**
 * Organic is the best performer, driving 38-39% of traffic consistently. It is the most stable channel with the highest AOV across all periods, except for Christmas when referral had the highest AOV.
-* Referral is lower volume (14% of traffic), but is a high intent channel. Specifically the link through "googlemerchandisestore.com" showed significantly higher AOV during the Christmas period ($74.50). 
+* Referral is lower volume (14% of traffic), but is a high intent channel. Specifically the link through "googlemerchandisestore.com" showed significantly higher AOV during the Post-Christmas period ($74.50). 
 * CPC is high intent, low volume. CPC users had high add to cart rates pre-Black Friday but the lowest add to cart and AOV across the board. Suggests people are window shopping and converting later through Direct or Organic. Shift budget to remarketing in BFCM Period to customers who added to cart during pre-BFCM but didn't convert to purchase. Reduce CPC on broad keywords during post-Christmas period, not brining in high-value customers.
 <br>
 
 <img width="2542" height="1232" alt="Image" src="https://github.com/user-attachments/assets/d8d8655b-ed3f-4651-bd2c-3526ebfd23fd" />
-**Graph:** Shows organic is a consistently strong channel, with high traffic volume and high AOV. Shows referral peaks AOV during Christmas period. CPC consistently low AOV, particulary in post-christmas slump.
+**Graph:** Shows organic is a consistently strong channel, with high traffic volume and high AOV. Shows referral peaks AOV during Post-Christmas period. CPC consistently low AOV, particulary in post-christmas slump.
 
 <br>
 **4. Canada has high AOVs during the BFCM, but is only 8% of traffic**
@@ -86,6 +86,6 @@ SQL (BigQuery): Unnesting, CTEs, Window Function, Statistical Profiling, Approx 
 
 **1. Optimise the First-Visit Experience-** Launch A/B tests for first-purchase triggers (e.g. prompt to add to cart, personalised welcome offers) that aim to move new users from the homepage to the view item stage and from view item to add to cart stage.
 
-**2. Expand Referral during the Christmas Period and shift CPC budget to Remarketing in BFCM -** Increase budget to referral programme from CPC during the Christmas period though the link "googlemerchandisestore.com". Shift CPC budget during BFCM to remarketing customers first landing on site and showing high levels of engagement during pre-BFCM.
+**2. Expand Referral during the Post-Christmas Period and shift CPC budget to Remarketing in BFCM -** Increase budget to referral programme from CPC during the Post-Christmas period though the link "googlemerchandisestore.com". Shift CPC budget during BFCM to remarketing customers first landing on site and showing high levels of engagement during pre-BFCM.
 
 **3. Scale the Canadian Market -** Explore localised promotional spend in Canada and develop targeted ads for the Canadian market during BFCM to capitalise on high AOV.
