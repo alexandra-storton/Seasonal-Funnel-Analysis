@@ -58,6 +58,7 @@ SQL (BigQuery): Unnesting, CTEs, Window Function, Statistical Profiling, Approx 
 * No technical issues found - suggest improving user experience during first visit to site e.g. adding more first purchase triggers to encourage new users to buy/engage with site - A/B test for best solutions.
 <br>
 <img width="1173" height="446" alt="Image" src="https://github.com/user-attachments/assets/74ab3371-86ee-464c-97ad-d51edf49f07a" />
+
 **Graph:** Shows difference in conversion rates at each funnel stage showing new customers showing lower engagement at each stage of the funnel. Biggest drop offs for new customer at view item and add to cart.
 
 <br>
