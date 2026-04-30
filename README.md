@@ -61,7 +61,7 @@ SQL (BigQuery): Unnesting, CTEs, Window Function, Statistical Profiling, Approx 
 **Graph:** Shows difference in conversion rates at each funnel stage showing new customers showing lower engagement at each stage of the funnel. Biggest drop offs for new customer at view item and add to cart.
 
 <br>
-
+<br>
 
 **3. Organic the best performing channel overall. CPC spend should be focused on increasing awareness pre-BFCM, remarketining in BFCM. Expand referral programme**
 * Oragnic is the best performer, driving 38-39% of traffic consistently. It is the most stable channel with the highest AOV across all periods, except for Christmas when referral had the highest AOV.
