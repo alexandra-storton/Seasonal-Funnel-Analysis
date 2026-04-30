@@ -73,6 +73,10 @@ SQL (BigQuery): Unnesting, CTEs, Window Function, Statistical Profiling, Approx 
 * CPC is high intent, low volume. CPC users had high add to cart rates pre-Black Friday but the lowest add to cart and AOV across the board. Suggests people are window shopping and converting later through Direct or Organic. Shift budget to remarketing in BFCM Period to customers who added to cart during pre-BFCM but didn't convert to purchase. Reduce CPC on broad keywords during post-Christmas period, not brining in high-value customers.
 <br>
 
+<img width="2542" height="1232" alt="Image" src="https://github.com/user-attachments/assets/d8d8655b-ed3f-4651-bd2c-3526ebfd23fd" />
+**Graph:** Shows organic is a consistently strong channel, with high traffic volume and high AOV. Shows referral peaks AOV during Christmas period. CPC consistently low AOV, particulary in post-christmas slump.
+
+<br>
 **4. Canada has high AOVs during the BFCM, but is only 8% of traffic**
 * Consider Canada as an area of expansion for BFCM, high AOVs $95.28 cs $77.78 in the US. Make up only 8.2% of BFCM market vs the US's 51% - explore localised promotional spend for the Canadian market during the November peak to capitalise on higher per-user spend.
 
