@@ -1,41 +1,60 @@
 # Seasonal-Funnel-Analysis-for-an-E-Commerce-Business
 
-📌 Objective
+##📌 Objective
 To perform an end-to-end funnel analysis of a high-traffic retail dataset (GA4) during the Q4 sales peak, identifying how seasonal events — Black Friday, Cyber Monday, and Christmas —distort conversion behaviour and acquisition efficiency.
 
-💡 Business Context
-The GA4 Obfuscated Dataset looks at sales data from the Google Merchandise Store from November 2020 to January 2021. This dataset contains all information typically in a GA4 dataset, however some information is redacted e.g. promotional campaign names and customer information for data-privacy issues.
+<br>
 
-✅ Executive Summary
-1. Capitalise on BFCM sales spike  - AOV peaked at £82.77 (vs a £69.99 baseline), with discounts driving a +6.6% uplift in order value, suggesting users upgrade during sales, not just looking to save money.tiered discounts (e.g., Spend £100, Save £20) to push AOV even higher.  Focus on high intent cats [bags, appatrel]
+##💡 Business Context
+The GA4 Obfuscated Dataset looks at sales data from the Google Merchandise Store from November 2020 to January 2021. This dataset contains all information typically in a GA4 dataset, however some information has been redacted e.g. promotional campaign names and customer information for data-privacy issues. 
+
+<br>
+
+## ✅ Executive Summary
+Summary
+
+**1. Capitalise on Black Friday & Cyber Monday (BFCM) sales spike and manage post-Christmas slump.**
+* AOV peaked during BFCM at $82.77 (vs $69.99 pre-BFCM), with discounts driving a +6.6% uplift in order value, suggests users upgrading during sales and not just looking to buy most discounted items.
+* Suggest implementing tiered discounts to push AOV even higher and foucs on pushing high intent categories (e.g. bags, apparel).
+* ADD CANADA POINT
   
-2. Fix new user problem, window shopping period, how to convcert more users fix low view item low add to cart rates - 95.2% of users during this period were new, yet they converted at a significantly lower rate (23.4%) than returning users (34.3%). Biggest drop off view item 77.5% of new traffic bounces before even engaging with a product.
+**2. Add and test new features to increase new user conversion.**
+* New users during the period converted at a significantly lower rate (23.4%) than returning users (34.3%).
+* Biggest drop off from first visit to view item with 77.5% of new traffic boucing before engaging with a product. 
 
-3. Manage post-christmas - Revenue per day plummeted from £8,906 in Chrismas Period to £2,113 in post Christmas period.
-
-4. CPC REFERAL
-⚙️ Tools Used
+3. CPC REFERAL 
+    
+## ⚙️ Tools Used
 SQL (BigQuery):
 
-📊 Results & Recommendations
-1. new user issue - window shopping, lower intent, lower engagement - add more first purchase triggers to buy/engage e.g. landing page optimisation for core page drove higher engagement
+## 📊 Results & Recommendations
+**1. BFCM is the best sales period seeing high voulmes and high AOV, post-Christmas sees collapse in sales and AOV**
+* AOV peaked during BFCM at $82.77 (vs a $69.99 baseline), with discounts driving a +6.6% uplift in order value - suggesting users upgrading during sales, not just looking to buy most discounted items.
+* Categories seeing biggest spikes in intrest : [FILL IN HERE ADD VAL, APPAREL-BIG £]
+* Post christmas sees collapse in sales (down to $2,113, over 50% decrease from pre-BFCM period) and AOV (down to $64.02, almost 10% decrease from pre-BFCM period). Pivot to high margin, low discount post-chrsitmas to prevent margins from collpasing and create a clearence tab for specific items.
 
-2. BFCM sesaonsly efficienct best vols, reves, AOVs - collapse post christmas. pivot to high margin low disount new year to prevent margins from collpasing - just not as much intrest in slump, not strong AOV, invest in bfcm. CREATE clearence tab for specoific items.
-   
-3. Oragnic best performer driving 38-39% of traffic consistently - it is the most stable channel with the highest AOV.
-   Referal While lower volume, it is a high-quality "intent" channel. Specifically, hop.googlemerchandisestore.com showed significantly higher AOV during the Christmas period.Funnel more $$ into referal better channel compared to PPC, higher intent.
-   CPC Observed as "High Intent, Low Volume." CPC users had high add_to_cart rates pre-Black Friday but the lowest AOV across the board. Window shopping and later converting through direct or organic.Shift budget to remarketing as not an effective acquisition startegy, try and reccop peoples who had signifiicanta ctiviity but didnt convert.
+**3. New users made up the vast majority of users during this period, but they had lower engagement and conversion compared to existing users.**
+* New users more prone to window shopping exhibiting lower intent and lower engagement.
+* Biggest drop offs were in view item (22.5% vs 43.7%) and add to cart rates (18.9% vs 30.7%).
+* Add more first purchase triggers to encourage new users to buy/engage with site, A/B test for best solutions.
+  
+**4. Organic the best performing channel. CPC spend should be focused on increasing awareness pre-BFCM and remarketining in BFCM. Referal programme should be expanded.**
+* Oragnic best performer driving 38-39% of traffic consistently, most stable channel with the highest AOV across all periods expect for Christmas when referral had the highest AOV.
+* Referal is lower volume (14% of traffic), but is a high-quality intent channel. Specifically the link through "googlemerchandisestore.com" showed significantly higher AOV during the Christmas period. Funnel budget from CPC into Referal during the Christmas period.
+* CPC is high intent, low volume. CPC users had high add to cart rates pre-Black Friday but the lowest AOV across the board suggesting people are window shoppinh and converting later through direct or organic. Shift budget to remarketing in BFCM to customers who added to cart during pre-BFCM but didn't convert to purchase, high-intent keywords during pre-BFCM period. Reduce CPC on broad keywords during post-Christmas period, not brining in high-value customers.
 
-   Shift CPC spend away from "Direct Purchase" keywords in late December and toward "Top of Funnel" awareness in early November to prime the BFCM pump.
+**5. Canada has high AOVs during the BFCM, but is only 8% of traffic**
+* Consider Canada as an area of expansion for BFCM, high AOVs $95.28 cs $77.78 in the US. Make up only 8.2% of BFCM market vs the US's 51% - explore localised promotional spend for the Canadian market during the November peak to capitalise on higher per-user spend.
 
-   4. Geographic Opportunity: The Canadian Spike The US remains the core market (43.6% traffic), but Canada showed a massive AOV spike during BFCM (£95.28 vs US £77.78). Explore    localised promotional spend for the Canadian market during the November peak to capitalise on higher per-user spend.
-      
-🚀 Next Steps
+<br>
+
+## 🚀 Next Steps
 
 Promote/fix new user behaviour --) incentivise add to cart, view item - increase site familiary/product fit
 
-Dynamic Discounting Model – -)Build a trigger-based discounting system that scales back "blanket" discounts in January, where they currently prove to be margin-dilutive.
+High-Volume/Seasonal: Tiered discounts (Spend $100, get 10% off) to protect AOV. CANADA, MANAGE SLUMP.
 
-Referral Expansion – -)Scale the referral partnership program, specifically then [fill in domain] which consistently brings in higher-value customers than paid search.
+Revise cpc startegy
 
-NEED TO UPLOAD SHEETS AS PDF
+
+NEED TO UPLOAD SHEETS AS PDF 
