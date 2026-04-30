@@ -50,7 +50,11 @@ SQL (BigQuery): Unnesting, CTEs, Window Function, Statistical Profiling, Approx 
 * Post-Christmas sees collapse in sales (down to $2,113 per day, >50% decrease from pre-BFCM period) and AOV (down to $64.02, an almost 10% decrease from pre-BFCM period). Suggest pivot to promoting high margin, low discount items Post-Christmas to prevent margins from collapsing.
 
 <br>
+<img width="1085" height="568" alt="Image" src="https://github.com/user-attachments/assets/c560ffcf-fe4c-4177-ac7f-b407a0d275bf" />
 
+**Graph:** Shows peak AOV and sales per day during BFCM and slump during Post-Christmas period.
+
+<br>
 **2. New users made up the vast majority of users during this period, but they had significantly lower engagement and conversion rates compared to existing users.**
 * New exhibiting lower intent and lower engagement, with biggest drop offs in view item (22.5% New vs 43.7% Existing) and add to cart rates (18.9% New vs 30.7% Existing).
 * View item worst in Christmas-Period (22%) and Post-Christmas-Period (17.8%).
