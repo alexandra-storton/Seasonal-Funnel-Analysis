@@ -1,17 +1,17 @@
 # Seasonal-Funnel-Analysis-for-an-E-Commerce-Business
 
-##📌 Objective
+## 📌 Objective
 To perform an end-to-end funnel analysis of a high-traffic retail dataset (GA4) during the Q4 sales peak, identifying how seasonal events — Black Friday, Cyber Monday, and Christmas —distort conversion behaviour and acquisition efficiency.
 
 <br>
 
-##💡 Business Context
+## 💡 Business Context
 The GA4 Obfuscated Dataset looks at sales data from the Google Merchandise Store from November 2020 to January 2021. This dataset contains all information typically in a GA4 dataset, however some information has been redacted e.g. promotional campaign names and customer information for data-privacy issues. 
 
 <br>
 
 ## ✅ Executive Summary
-Summary
+SUMMARY SENTENCE
 
 **1. Capitalise on Black Friday & Cyber Monday (BFCM) sales spike and manage post-Christmas slump.**
 * AOV peaked during BFCM at $82.77 (vs $69.99 pre-BFCM), with discounts driving a +6.6% uplift in order value, suggests users upgrading during sales and not just looking to buy most discounted items.
@@ -22,10 +22,14 @@ Summary
 * New users during the period converted at a significantly lower rate (23.4%) than returning users (34.3%).
 * Biggest drop off from first visit to view item with 77.5% of new traffic boucing before engaging with a product. 
 
-3. CPC REFERAL 
-    
+3. CPC REFERAL
+
+<br>
+
 ## ⚙️ Tools Used
 SQL (BigQuery):
+
+<br>
 
 ## 📊 Results & Recommendations
 **1. BFCM is the best sales period seeing high voulmes and high AOV, post-Christmas sees collapse in sales and AOV**
@@ -53,6 +57,8 @@ SQL (BigQuery):
 Promote/fix new user behaviour --) incentivise add to cart, view item - increase site familiary/product fit
 
 High-Volume/Seasonal: Tiered discounts (Spend $100, get 10% off) to protect AOV. CANADA, MANAGE SLUMP.
+
+SHIFT MIX CPC, REFFERAL.
 
 Revise cpc startegy
 
