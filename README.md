@@ -57,7 +57,10 @@ SQL (BigQuery): Unnesting, CTEs, Window Function, Statistical Profiling, Approx 
 * Add to cart worst in Pre-Christmas (7.4%) and Post-Christmas (16.9%).
 * No technical issues found - suggest improving user experience during first visit to site e.g. adding more first purchase triggers to encourage new users to buy/engage with site - A/B test for best solutions.
 <br>
+<img width="1173" height="446" alt="Image" src="https://github.com/user-attachments/assets/74ab3371-86ee-464c-97ad-d51edf49f07a" />
+**Graph:** Shows difference in conversion rates at each funnel stage showing new customers showing lower engagement at each stage of the funnel. Biggest drop offs for new customer at view item and add to cart.
 
+<br>
 **3. Organic the best performing channel overall. CPC spend should be focused on increasing awareness pre-BFCM, remarketining in BFCM. Expand referral programme**
 * Oragnic is the best performer, driving 38-39% of traffic consistently. It is the most stable channel with the highest AOV across all periods, except for Christmas when referral had the highest AOV.
 * Referral is lower volume (14% of traffic), but is a high intent channel. Specifically the link through "googlemerchandisestore.com" showed significantly higher AOV during the Christmas period ($74.50). 
