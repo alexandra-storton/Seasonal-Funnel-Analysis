@@ -68,7 +68,7 @@ SQL (BigQuery): Unnesting, CTEs, Window Function, Statistical Profiling, Approx 
 <br>
 
 **3. Organic the best performing channel overall. CPC spend should be focused on increasing awareness pre-BFCM, remarketining in BFCM. Expand referral programme**
-* Oragnic is the best performer, driving 38-39% of traffic consistently. It is the most stable channel with the highest AOV across all periods, except for Christmas when referral had the highest AOV.
+* Organic is the best performer, driving 38-39% of traffic consistently. It is the most stable channel with the highest AOV across all periods, except for Christmas when referral had the highest AOV.
 * Referral is lower volume (14% of traffic), but is a high intent channel. Specifically the link through "googlemerchandisestore.com" showed significantly higher AOV during the Christmas period ($74.50). 
 * CPC is high intent, low volume. CPC users had high add to cart rates pre-Black Friday but the lowest add to cart and AOV across the board. Suggests people are window shopping and converting later through Direct or Organic. Shift budget to remarketing in BFCM Period to customers who added to cart during pre-BFCM but didn't convert to purchase. Reduce CPC on broad keywords during post-Christmas period, not brining in high-value customers.
 <br>
