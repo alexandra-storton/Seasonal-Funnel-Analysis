@@ -54,6 +54,7 @@ SQL (BigQuery): Unnesting, CTEs, Window Function, Statistical Profiling, Approx 
 **Graph:** Shows peak AOV and sales per day during BFCM and slump during Post-Christmas period.
 
 <br>
+
 **2. New users made up the vast majority of users during this period, but they had significantly lower engagement and conversion rates compared to existing users.**
 * New exhibiting lower intent and lower engagement, with biggest drop offs in view item (22.5% New vs 43.7% Existing) and add to cart rates (18.9% New vs 30.7% Existing).
 * View item worst in Christmas-Period (22%) and Post-Christmas-Period (17.8%).
