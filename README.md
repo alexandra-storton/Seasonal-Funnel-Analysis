@@ -28,7 +28,6 @@ BFCM was the best performing period with an AOV of $82.77 and a +6.6% value upli
 
 <br>
 
-
 **3. Optimise Channel Mix & Expand into Profitable Areas.** 
 * Referrals is a high-intent channel and brought in the highest AOV customers during the Christmas Period ($74.50) - push this as an acquisition channel during this period through link googlemerchandisestore.com.
 * CPC acts as a window shopping channel pre-BFCM with high engagement rates but poor add to cart rates (7%) and low final AOV. Remarket to these individuals during BFCM to capture those who added to cart or showed high engagement with site but didn't check out.
