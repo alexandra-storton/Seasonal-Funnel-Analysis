@@ -77,6 +77,7 @@ SQL (BigQuery): Unnesting, CTEs, Window Function, Statistical Profiling, Approx 
 **Graph:** Shows organic is a consistently strong channel, with high traffic volume and high AOV. Shows referral peaks AOV during Post-Christmas period. CPC consistently low AOV, particulary in post-christmas slump.
 
 <br>
+<br>
 
 **4. Canada has high AOVs during the BFCM, but is only 8% of traffic**
 * Consider Canada as an area of expansion for BFCM, high AOVs $95.28 cs $77.78 in the US. Make up only 8.2% of BFCM market vs the US's 51% - explore localised promotional spend for the Canadian market during the November peak to capitalise on higher per-user spend.
