@@ -23,7 +23,9 @@ The GA4 Obfuscated Dataset looks at sales data from the Google Merchandise Store
    1. When considering the effects of channels, CPC drove high engagement but experienced low AOV's with poor add-to-cart rates - functioning more like a discovery channel than a           conversion channel.
    2. Referral is smaller in volume but consistently outperforms on intent and AOV, it is worth reviewing budget allocation to see if Referral would have a higher pay-off.
   
-**The most underleveraged opportunity in the data is Canada, where BFCM AOV reached $95.28 versus $77.78 in the US. With just 8.2% of the overall BFCM traffic vs the US's 51% this suggests the opportunity is currently underdeveloped and worth exploring further.**
+**Geographic data highlights Canada as the most underleveraged, high-value expansion market available.**
+   1. The most underleveraged opportunity in the data is Canada, where BFCM AOV reached $95.28 versus $77.78 in the US.
+   2. With just 8.2% of the overall BFCM traffic vs the US's 51% this suggests the opportunity is currently underdeveloped and worth exploring further.
 
 <br>
 
