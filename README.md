@@ -57,7 +57,7 @@ The four days spanning Black Friday and Cyber Monday (BFCM) was the standout per
 <br>
 
 <img width="2542" height="1232" alt="Image" src="https://github.com/user-attachments/assets/d8d8655b-ed3f-4651-bd2c-3526ebfd23fd" />
-Graph: Shows organic is a consistently strong channel, with high traffic volume and high AOV. Shows referral peaks AOV during Post-Christmas period. CPC consistently low AOV, particulary in post-christmas slump.
+**Graph:** Shows organic is a consistently strong channel, with high traffic volume and high AOV. Shows referral peaks AOV during Post-Christmas period. CPC consistently low AOV, particulary in post-christmas slump.
 
 <br>
 <br>
