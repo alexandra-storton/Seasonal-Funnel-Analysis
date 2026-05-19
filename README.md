@@ -1,7 +1,7 @@
 # Seasonal-Funnel-Analysis-for-an-E-Commerce-Business
 
 ## 📌 Objective
-To perform an end-to-end funnel analysis of a high-traffic retail dataset (GA4) during the Q4 sales peak, identifying how seasonal events — Black Friday, Cyber Monday, and Christmas —distort conversion behaviour and acquisition efficiency. Reccomend how marketing startegy can be adapted to capitalise on most profitable periods and improve engagement.
+To perform an end-to-end funnel analysis of a high-traffic retail dataset (GA4) during the Q4 sales peak, identifying how seasonal events — Black Friday, Cyber Monday, and Christmas —distort conversion behaviour and acquisition efficiency. This project addresses how to separate genuine performance signals from seasonal distortion, and what that means for acquisition strategy.
 
 <br>
 
@@ -11,32 +11,13 @@ The GA4 Obfuscated Dataset looks at sales data from the Google Merchandise Store
 <br>
 
 ## ✅ Executive Summary
-The four days covering Black Friday to Cyber Monday (BFCM) was the best performing period with an AOV of $82.77 (CLAIFRY DISCOUNTS a +6.6% value uplift). This value collapsed Post-Christmas into a margin-eroding slump with revenue falling over 50% to $2,113 per day. To sustain growth, the focus must shift to bridging the new user engagement gap while scaling high-AOV opportunities in the Canadian market, shifting CPC strategy and referral channels.
+The four days spanning Black Friday and Cyber Monday (BFCM) was the standout period with AOV hitting $82.77 against a $69.99 pre-BFCM baseline. In this period there was also a 6.6% discount-driven uplift suggesting customers are upgrading their baskets rather than simply buying the cheapest available item, an important distinction for how future promotions should be structured. The Post-Christmas period experiences a slump with revenue falling over 50% to $2,113 per day and AOV dropping to $64.02, making broad discounting and continued CPC spend during this window a margin cost without the volume to justify it. The user behaviour story is consistent across periods. New users made up 95% of traffic but converted at 23.4% versus 34.3% for returning users, with the gap most pronounced at view item and add-to-cart stages. A technical audit didn't surface any site issues, which points to onboarding and product-market fit rather than infrastructure — A/B testing on the first-visit experience is the logical next step to optimise converstion at these stages. When considering the effects of channels, CPC drove high engagement but experienced low AOV's with poor add-to-cart rates - functioning more like a discovery channel than a conversion channel. Referral is smaller in volume but consistently outperforms on intent and AOV, it is worth reviewing budget allocation to see if Referral would have a higher pay-off. The most underleveraged opportunity in the data is Canada, where BFCM AOV reached $95.28 versus $77.78 in the US. With just 8.2% of the overall BFCM traffic vs the US's 51% this suggestes the opportunity is currently underdeveloped and worth exploring further.
 
-<br>
 
-**1. Capitalise on Black Friday & Cyber Monday (BFCM) sales spike.**
-* AOV peaked during BFCM at $82.77 (vs $69.99 pre-BFCM), with discounts driving a +6.6% uplift in order value, suggests users upgrading during sales and not just looking to buy most discounted items.
-* Post-Christmas slump where revenue drops by over 50% to $2,113 per day and AOV slides to $64.02 - reduce advertising and discounting, pivot to high-margin, low discount items to protect margin.
+## ⚙️ Tools & Analytical Skills Used
+* **SQL (BigQuery)**: Unnesting, CTEs, window function, approx quantiles, funnel modelling, date formating, safe divide
+* **Analytical Skills**:  Funnel analysis, seasonal decomposition, cohort analysis, segmentation analysis, channel attribution, statistical profiling
 
- <br>
-
-**2.Bridge new user engagement gap.**
-* Most users in this period (95%) were new users, however they converted at a significantly lower rate (23.4%) than returning users (34.3%).
-* Biggest drop off from the view item stage (22.5% for new users vs 43.7% for existing) and the add to cart stage (18.9% vs 30.7%).
-* No techincal issues found, instead product-market fit and seasonality issues - improve engagement and conversion features on site.
-
-<br>
-
-**3. Optimise Channel Mix & Expand into Profitable Areas.** 
-* Referrals is a high-intent channel and brought in the highest AOV customers during the Post-Christmas Period ($74.50) - push this as an acquisition channel during this period through link googlemerchandisestore.com.
-* CPC acts as a window shopping channel pre-BFCM with high engagement rates but poor add to cart rates (7%) and low final AOV. Remarket to these individuals during BFCM to capture those who added to cart or showed high engagement with site but didn't check out.
-* Canada is an underinvested in market during BFCM, with the higest AOV of $95.28 vs the US's $77.78. Only 8.2% of traffic compared to the US's 51%.
-  
-<br>
-
-## ⚙️ Tools Used
-SQL (BigQuery): Unnesting, CTEs, Window Function, Statistical Profiling, Approx Quantiles, Funnel Modelling, Date Formating, Safe Divide
 
 <br>
 
@@ -59,7 +40,7 @@ SQL (BigQuery): Unnesting, CTEs, Window Function, Statistical Profiling, Approx 
 * New exhibiting lower intent and lower engagement, with biggest drop offs in view item (22.5% New vs 43.7% Existing) and add to cart rates (18.9% New vs 30.7% Existing).
 * View item worst in Christmas-Period (22%) and Post-Christmas-Period (17.8%).
 * Add to cart worst in Pre-Christmas (7.4%) and Post-Christmas (16.9%).
-* No technical issues found - suggest improving user experience during first visit to site e.g. adding more first purchase triggers to encourage new users to buy/engage with site - A/B test for best solutions.
+* Technical audit ruled out site performance as a driver — drop-off patterns point instead to product-market fit and first-visit experience gaps, suggesting UX and onboarding interventions over infrastructure fixes - A/B test for best solutions.
 <br>
 <img width="1173" height="446" alt="Image" src="https://github.com/user-attachments/assets/74ab3371-86ee-464c-97ad-d51edf49f07a" />
 
@@ -80,7 +61,7 @@ SQL (BigQuery): Unnesting, CTEs, Window Function, Statistical Profiling, Approx 
 <br>
 
 **4. Canada has high AOVs during the BFCM, but is only 8% of traffic**
-* Consider Canada as an area of expansion for BFCM, high AOVs $95.28 cs $77.78 in the US. Make up only 8.2% of BFCM market vs the US's 51% - explore localised promotional spend for the Canadian market during the November peak to capitalise on higher per-user spend.
+* Canada represents a high-value underinvested market with an AOV of $95.28 vs $77.78 in the US, yet is only 8.2% of the BFCM traffic compared to the US's 51% — suggesting significant upside from targeted localised spend during the November peak.
 
 <br>
 
