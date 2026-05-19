@@ -11,7 +11,7 @@ The GA4 Obfuscated Dataset looks at sales data from the Google Merchandise Store
 <br>
 
 ## ✅ Executive Summary
-BFCM was the best performing period with an AOV of $82.77 and a +6.6% value uplift. This value collapsed Post-Christmas into a margin-eroding slump with revenue falling over 50% to $2,113 per day. To sustain growth, the focus must shift to bridging the new user engagement gap while scaling high-AOV opportunities in the Canadian market, shifting CPC strategy and referral channels.
+The four days covering Black Friday to Cyber Monday (BFCM) was the best performing period with an AOV of $82.77 (CLAIFRY DISCOUNTS a +6.6% value uplift). This value collapsed Post-Christmas into a margin-eroding slump with revenue falling over 50% to $2,113 per day. To sustain growth, the focus must shift to bridging the new user engagement gap while scaling high-AOV opportunities in the Canadian market, shifting CPC strategy and referral channels.
 
 <br>
 
