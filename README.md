@@ -6,7 +6,7 @@ To perform an end-to-end funnel analysis of a high-traffic retail dataset (GA4) 
 <br>
 
 ## 💡 Business Context
-The GA4 Obfuscated Dataset looks at sales data from the Google Merchandise Store from November 2020 to January 2021. This dataset contains all information typically in a GA4 dataset, however some information has been redacted e.g. promotional campaign names and customer information for data-privacy issues. 
+The GA4 Obfuscated Dataset looks at sales data from the Google Merchandise Store from November 2020 to January 2021. This dataset contains all information typically in a GA4 dataset, however some information has been redacted e.g. promotional campaign names and customer information in-line with data privacy requirements. 
 
 <br>
 
