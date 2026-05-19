@@ -17,6 +17,7 @@ The four days spanning Black Friday and Cyber Monday (BFCM) was the standout per
 
 ## ⚙️ Tools & Analytical Skills Used
 * **SQL (BigQuery)**: Unnesting, CTEs, window function, approx quantiles, funnel modelling, date formating, safe divide
+* **Tableau**:Table calculations, LODs, calculated fields, filters, dual axis 
 * **Analytical Skills**:  Funnel analysis, seasonal decomposition, cohort analysis, segmentation analysis, channel attribution, statistical profiling
 
 
