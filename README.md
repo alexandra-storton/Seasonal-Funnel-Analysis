@@ -1,4 +1,4 @@
-# Seasonal-Funnel-Analysis-for-an-E-Commerce-Business
+# Seasonal Funnel Analysis
 
 ## 📌 Objective
 To perform an end-to-end funnel analysis of a high-traffic retail dataset (GA4) during the Q4 sales peak, identifying how seasonal events — Black Friday, Cyber Monday, and Christmas —distort conversion behaviour and acquisition efficiency. This project addresses how to separate genuine performance signals from seasonal distortion, and what that means for acquisition strategy.
