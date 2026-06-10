@@ -83,8 +83,8 @@ Graph: Shows organic is a consistently strong channel, with high traffic volume 
 
 ## 🚀 Next Steps
 
-**1. Optimise the First-Visit Experience-** Launch A/B tests for first-purchase triggers (e.g. prompt to add to cart, personalised welcome offers) that aim to move new users from the homepage to the view item stage and from view item to add to cart stage.
+**1. Optimise the first-visit experience-** Launch A/B tests for first-purchase triggers (e.g. prompt to add to cart, personalised welcome offers) that aim to move new users from the homepage to the view item stage and from view item to add to cart stage.
 
-**2. Expand Referral during the Post-Christmas Period and shift CPC budget to Remarketing in BFCM -** Increase budget to referral programme from CPC during the Post-Christmas period though the link "googlemerchandisestore.com". Shift CPC budget during BFCM to remarketing customers first landing on site and showing high levels of engagement during pre-BFCM.
+**2. Expand referral during the post-christmas period and shift CPC budget to remarketing in BFCM -** Increase budget to referral programme from CPC during the Post-Christmas period though the link "googlemerchandisestore.com". Shift CPC budget during BFCM to remarketing customers first landing on site and showing high levels of engagement during pre-BFCM.
 
-**3. Scale the Canadian Market -** Explore localised promotional spend in Canada and develop targeted ads for the Canadian market during BFCM to capitalise on high AOV.
+**3. Scale the Canadian market -** Explore localised promotional spend in Canada and develop targeted ads for the Canadian market during BFCM to capitalise on high AOV.
